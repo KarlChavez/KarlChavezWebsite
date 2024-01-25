@@ -70,24 +70,44 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Product Detail Page",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Worked on pricing, availability, reviews, descriptions, and badges to showcase detailed information on SKU items",
+    tags: ["Next.js", "React.js", "Node.js", "TypeScript", "SCSS", "Recoil", "Jest"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Checkout Page",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Implemented shipping functionality, including forms, credit cards, gift cards, in-store pickup availability, fees, and other shipping details",
+    tags: ["Next.js", "React.js", "Node.js", "TypeScript", "SCSS", "Recoil", "Jest"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Code To Image",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Built a program to convert code into images, enabling users to download customizable and stylish screenshots of code",
+    tags: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "TypeScript",
+      "Tailwind",
+      "Firebase",
+    ],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Geolocation History Events",
+    description:
+      "Developed a map application with local storage to save favorited historic locations, providing users with trip ideas",
+    tags: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "TypeScript",
+      "Tailwind",
+    ],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -95,21 +115,17 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "SCSS",
+  "Tailwind",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "GitHub",
+  "GitLab",
+  "Java",
+  "C",
+  "SQL",
 ] as const;
