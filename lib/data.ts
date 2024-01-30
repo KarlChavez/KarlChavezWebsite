@@ -85,6 +85,7 @@ export const projectsData = [
       "Jest",
     ],
     imageUrl: ProductDetailPageBassProShops,
+    url: "https://www.basspro.com/shop/en/redhead-ozark-mountain-flannel-long-sleeve-button-down-shirt-for-men",
   },
   {
     title: "Checkout Page",
@@ -100,6 +101,7 @@ export const projectsData = [
       "Jest",
     ],
     imageUrl: CheckoutPageBassProShops,
+    url: "https://www.basspro.com/cart",
   },
   {
     title: "Code To Image",
@@ -114,6 +116,7 @@ export const projectsData = [
       "Firebase",
     ],
     imageUrl: CodeToImage,
+    url: "https://code-to-image-nextjs.vercel.app/",
   },
   {
     title: "Geolocation History Events",
@@ -121,6 +124,7 @@ export const projectsData = [
       "Developed a map application with local storage to save favorited historic locations, providing users with trip ideas",
     tags: ["Next.js", "React.js", "Node.js", "TypeScript", "Tailwind"],
     imageUrl: HistoryEvents,
+    url: "https://history-events-nextjs.vercel.app/",
   },
 ] as const;
 
